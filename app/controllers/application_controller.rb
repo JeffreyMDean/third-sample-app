@@ -4,10 +4,10 @@ class ApplicationController < ActionController::Base
   end
 
   def test2
-    render json: { message: "This is test2" }
+    render json: { message: "This is another test" }
   end
 
-  def test2
-    render json: { message: "This is test3" }
+  def test3
+    render json: { message: "This is a final test" }
   end
 end

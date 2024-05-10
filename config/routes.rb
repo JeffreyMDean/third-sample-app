@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
   get "up" => "rails/health#show", as: :rails_health_check
-  get "/test1", controller: "examples", action: "test1"
-  get "/test2", controller: "examples", action: "test2"
-  get "/test3", controller: "examples", action: "test3"
+  get "/test1", controller: "application", action: "test1"
+  get "/test2", controller: "application", action: "test2"
+  get "/test3", controller: "application", action: "test3"
 end
   
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
